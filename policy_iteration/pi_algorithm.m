@@ -50,7 +50,7 @@ for i = 1:epoch
     critic = train(critic,x_train,critic_target); % compress output of critic
     
     performance_index(i) = critic(x0);
-    figure(1),plot(i-1,performance_index(i),'*'),hold on;
+    figure(1),plot(i,performance_index(i),'*'),xlim([1 epoch]),hold on;
     
     waitbar(i/epoch,h,['Training controller...',num2str(i/epoch*100),'%']);
     if i == epoch
