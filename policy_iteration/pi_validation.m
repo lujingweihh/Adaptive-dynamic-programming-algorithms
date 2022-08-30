@@ -39,14 +39,14 @@ figure,
 plot(0:Fsamples,xx,'b-',0:Fsamples,xx_net,'r--','linewidth',1)
 xlabel('Time steps');
 ylabel('States'); 
-set(gca,'FontName','Times New Roman','FontSize',12,'linewidth',1);
+set(gca,'FontName','Times New Roman','FontSize',14,'linewidth',1);
 grid on;
 figure,
 plot(0:Fsamples-1,uu_opt,'b-',0:Fsamples-1,uu_net,'r--','linewidth',1)
 legend('Optimal ','NN','Interpreter','latex'); 
 xlabel('Time steps');
 ylabel('Control');
-set(gca,'FontName','Times New Roman','FontSize',12,'linewidth',1);
+set(gca,'FontName','Times New Roman','FontSize',14,'linewidth',1);
 grid on;
 
 
