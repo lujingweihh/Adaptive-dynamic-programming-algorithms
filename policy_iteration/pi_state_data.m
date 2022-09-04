@@ -16,7 +16,7 @@ R = 1*eye(control_dim);
 
 % training data
 x_train = zeros(state_dim,1);
-x0 = [1;-1];
+x0 = [1;-1]; % initial states
 
 for i = 1:50
     x_train = [x_train, zeros(state_dim,1)];  
