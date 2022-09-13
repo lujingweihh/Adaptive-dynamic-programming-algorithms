@@ -17,7 +17,7 @@ load training_data/actor_init.mat;
 % action network
 actor = actor_init;
 
-actor_epoch = 10000;
+actor_epoch = 20000;
 actor_err_goal = 1e-9;
 actor_lr = 0.01;
 actor.trainParam.epochs = actor_epoch; 
