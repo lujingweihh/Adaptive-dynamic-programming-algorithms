@@ -9,7 +9,7 @@ actor_target = -K*x_train;
 
 cover = 1;
 if isempty(dir('training_data/actor_init.mat')) == 1 || cover == 1
-    % actiron network
+    % action network
     actor_init_middle_num = 15;
     actor_init_epoch = 10000;
     actor_init_err_goal = 1e-9;
