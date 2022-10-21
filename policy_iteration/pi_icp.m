@@ -1,4 +1,4 @@
-%-------------------------- obtain the initial control ----------------------------
+%-------------------------- obtain the initial admissible control ----------------------------
 clear; close all; clc;
 
 load training_data/state_data.mat
