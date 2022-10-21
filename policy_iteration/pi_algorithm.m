@@ -47,7 +47,7 @@ for i = 1:epoch
     % update critic
     % evaluate policy
     critic_target = evaluate_policy(actor, x_train, eval_step);
-    critic = train(critic,x_train,critic_target); % compress output of critic
+    critic = train(critic,x_train,critic_target); 
     
     performance_index(i) = critic(x0);
     figure(1),plot(i,performance_index(i),'*'),xlim([1 epoch]),hold on;
