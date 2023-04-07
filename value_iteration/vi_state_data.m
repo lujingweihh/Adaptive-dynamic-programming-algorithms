@@ -12,19 +12,19 @@ u_train = zeros(control_dim,1);
 
 for i = 1:30
     x_train = [x_train, zeros(state_dim,1)];
-    x_train = [x_train,4*(rand(state_dim,1)-0.5)];  
-    x_train = [x_train,2*(rand(state_dim,1)-0.5)];   
-    x_train = [x_train,1*(rand(state_dim,1)-0.5)];   
-    x_train = [x_train,0.2*(rand(state_dim,1)-0.5)]; 
+    x_train = [x_train,4*(rand(state_dim,1)-0.5)];   % [-2 2]
+    x_train = [x_train,2*(rand(state_dim,1)-0.5)];   % [-1 1]
+    x_train = [x_train,1*(rand(state_dim,1)-0.5)];   % [-0.5 0.5]
+    x_train = [x_train,0.2*(rand(state_dim,1)-0.5)]; % [-0.1 0.1]
     u_train = [u_train,zeros(control_dim,1)];
-    u_train = [u_train,4*(rand(control_dim,1)-0.5)]; 
-    u_train = [u_train,2*(rand(control_dim,1)-0.5)];  
-    u_train = [u_train,1*(rand(control_dim,1)-0.5)];   
-    u_train = [u_train,0.2*(rand(control_dim,1)-0.5)]; 
+    u_train = [u_train,4*(rand(control_dim,1)-0.5)];   % [-2 2]
+    u_train = [u_train,2*(rand(control_dim,1)-0.5)];   % [-1 1]
+    u_train = [u_train,1*(rand(control_dim,1)-0.5)];   % [-0.5 0.5]
+    u_train = [u_train,0.2*(rand(control_dim,1)-0.5)]; % [-0.1 0.1]
 end
 
-r = randperm(size(x_train,2));  
-x_train = x_train(:,r);   
+r = randperm(size(x_train,2));   % randomization according column
+x_train = x_train(:,r);         % reorder
 [~,n] = find(x_train == zeros(state_dim,1));
 
 zeros_index = [];
