@@ -83,7 +83,6 @@ grid on;
 hold off;
 
 save training_results/actor_critic actor critic
-
 end
 
 %---------------------------- evaluate policy -----------------------------
