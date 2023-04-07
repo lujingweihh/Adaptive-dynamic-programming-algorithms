@@ -10,7 +10,7 @@ x0 = [1;-1];
 x_train = zeros(state_dim,1);
 u_train = zeros(control_dim,1);
 
-for i = 1:30
+for i = 1:50
     x_train = [x_train, zeros(state_dim,1)];
     x_train = [x_train,4*(rand(state_dim,1)-0.5)];   % [-2 2]
     x_train = [x_train,2*(rand(state_dim,1)-0.5)];   % [-1 1]
