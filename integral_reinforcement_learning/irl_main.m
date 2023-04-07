@@ -1,8 +1,7 @@
-% This demo checks the feasibility of the integral reinforcement learning (IRL) programming  algorithm
+% This demo checks the feasibility of the integral reinforcement learning (IRL) programming algorithm
 
 % By J. Lu
 % Date: Nov. 23, 2020 
-
 
 %-------------------------------- start -----------------------------------
 clear; close all; clc;
