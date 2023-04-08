@@ -1,4 +1,5 @@
 # Adaptive dynamic programming
+********
 Adaptive dynamic programming (ADP), also known as approximate dynamic programming, neuro-dynamic programming, and reinforcement learning (RL), is a class of promising techniques to solve the problems of optimal control for discrete-time (DT) and continuous-time (CT) nonlinear systems.
 
  MATLAB codes of ADP algorithms, including iterative and online ADP, are provided. 
