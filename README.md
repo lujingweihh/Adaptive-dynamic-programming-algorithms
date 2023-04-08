@@ -4,9 +4,9 @@ Adaptive dynamic programming (ADP), also known as approximate dynamic programmin
  MATLAB codes of fundamental ADP algorithms, including iterative and online ADP, are provided. 
  
  Currently added ADP algorithms include:
- - Value iteraion
- - Policy iteration
- - Integral reinforcement learning (IRL)
+ - Value iteraion for discrete-time systems
+ - Policy iteration for discrete-time systems
+ - Integral reinforcement learning (IRL) for continuous-time systems
 <br/>
 
 ### Requirements
