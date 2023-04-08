@@ -31,7 +31,6 @@ pole = eig(A - B*K)
 Fsamples = 120;
 T = 0.05; % sample time
 SS = 0.001; % step size for simulation
-KO = zeros(1,4); % record K before updating K
 j = 0;
 nop = 10;
 tol = 1e-4;
@@ -83,7 +82,7 @@ figure(1), hold off;
 
 figure(2),plot(T*[0:Fsamples],uu,'b','linewidth',1)
 xlabel('Time (s)');
-ylabel('Control'); 
+ylabel('Control trajectory'); 
 set(gca,'FontName','Times New Roman','FontSize',14,'linewidth',1);
 grid on;
 
