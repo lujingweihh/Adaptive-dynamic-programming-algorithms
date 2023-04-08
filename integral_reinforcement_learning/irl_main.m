@@ -34,8 +34,6 @@ SS = 0.001; % step size for simulation
 j = 0;
 nop = 10;
 tol = 1e-4;
-XX = [];
-YY = [];
 
 figure(1),hold on;
 xlabel('Time (s)');
@@ -45,7 +43,6 @@ grid on;
 for k=1:Fsamples
     j = j + 1;
     tspan = 0:SS:T;
-%     tspan = [0 T];
     [t,x]= ode23('irl_ode',tspan,x0);
     uu = [uu u];
     figure(1),plot(t + T*(k-1),x(:,1),'b',t + T*(k-1),x(:,2),'r',t + T*(k-1),x(:,3),'g',t + T*(k-1),x(:,4),'k','linewidth',1),hold on;
