@@ -18,7 +18,7 @@ fo_x = [-x(1)^3 + x(2); x(1)^2 - x(1) - x(2) + 0.15*u^3 + sin(0.1*u) ]; % nonaff
 fo_r = [-ra(1)^3 + ra(2); ra(1)^2 - ra(1) - ra(2) + 0.15*ra(3)^3 + sin(0.1*ra(3)) ]; % reference signal
 
 % construct the augmented system and reference signal first and derive the augmented tracking error system later 
-% the paper obtains the tracking error system first and derive the augmented tracking error system later 
+% the paper obtains the tracking error system first and derives the augmented tracking error system later 
 % both methods are acceptable
 fa_e = [fo_x - fo_r; 0]; 
 

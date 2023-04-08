@@ -29,8 +29,8 @@ global v;
 % parameters
 r = [0.5;0.125]; % reference signal
 ur = 1.1947448; % reference control
-% this code constructs the augmented system and reference signal first and derive the augmented tracking error system later 
-% the paper obtains the tracking error system first and derive the augmented tracking error system later 
+% this code constructs the augmented system and reference signal first and derives the augmented tracking error system later 
+% the paper obtains the tracking error system first and derives the augmented tracking error system later 
 % both methods are acceptable
 ra = [r;ur]; % augmented reference signal
 
