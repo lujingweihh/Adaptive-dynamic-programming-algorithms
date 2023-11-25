@@ -4,9 +4,9 @@ Adaptive dynamic programming (ADP), also known as approximate dynamic programmin
  MATLAB codes of ADP, including iterative and online ADP, are provided. Currently added ADP algorithms include:
  - [Value iteraion for DT systems](https://ieeexplore.ieee.org/abstract/document/4554208)
  - [Policy iteration for DT systems](https://books.google.com.hk/books?hl=zh-CN&lr=&id=U3Gtlot_hYEC&oi=fnd&pg=PR11&dq=Optimal+Control&ots=wcdkz1Auhq&sig=YyFMovodt3yzTBi2eD17pS5jilM&redir_esc=y#v=onepage&q=policy%20iteration&f=false)
- - [Integral reinforcement learning (IRL) for CT systems](https://www.sciencedirect.com/science/article/abs/pii/S0893608009000446)
+ - [Integral RL (IRL) for partially unknown CT systems](https://www.sciencedirect.com/science/article/abs/pii/S0893608009000446)
  - [Parallel control-based optimal tracking for CT nonaffine systems](https://www.ieee-jas.net/en/article/doi/10.1109/JAS.2020.1003426)
- - Model-free IRL for CT nonaffine systems
+ - Model-free IRL for completely unknown CT nonaffine systems
 
 
 ### Requirements
