@@ -1,4 +1,4 @@
-# Model-free online optimal control using adaptive dynamic programming (integral reinforcement learning)
+# Model-free integral reinforcement learning
 ********
 Source code for paper:   
 J. Lu, X. Wang, Q. Wei, F.-Y. Wang. Nearly optimal stabilization of unknown continuous-time nonlinear systems: A new parallel control approach.
