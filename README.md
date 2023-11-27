@@ -1,4 +1,4 @@
-# Adaptive dynamic programming and and reinforcement learning (ADPRL) for nonlinear optimal control
+# Adaptive dynamic programming and and reinforcement learning for nonlinear optimal control
 Adaptive dynamic programming (ADP), also known as approximate dynamic programming, neuro-dynamic programming, and reinforcement learning (RL), is a class of promising techniques to solve the problems of optimal control for discrete-time (DT) and continuous-time (CT) nonlinear systems.
 
  MATLAB codes of ADP, including iterative and online ADP, are provided. Currently added ADP algorithms include:
