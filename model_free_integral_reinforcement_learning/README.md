@@ -21,6 +21,5 @@ A novel online optimal control method for unknown continuous-time nonaffine nonl
 @article{lu2023nearly,
   title={Nearly Optimal Stabilization of Unknown Continuous-Time Nonlinear Systems: A New Parallel Control Approach},
   author={Lu, Jingwei and Wang, Xingxia and Wei, Qinglai and Wang, Fei-Yue},
-  journal={Submitted to Neurocomputing}
 }
 ```
