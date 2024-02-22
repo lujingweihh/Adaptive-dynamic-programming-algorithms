@@ -6,7 +6,7 @@ Adaptive dynamic programming (ADP), also known as approximate dynamic programmin
  - [Value iteraion (positive semi definite initial value function) for DT systems](https://ieeexplore.ieee.org/abstract/document/7314890)
  - [Policy iteration for DT systems](https://ieeexplore.ieee.org/abstract/document/6609085)
  - [Integral reinforcement learning for partially unknown CT systems](https://www.sciencedirect.com/science/article/abs/pii/S0893608009000446)
- - [Model-free integral reinforcement learning for completely unknown CT nonaffine systems](https://www.sciencedirect.com/science/article/abs/pii/S0893608009000446](https://www.sciencedirect.com/science/article/pii/S0925231224001929)
+ - [Model-free integral reinforcement learning for completely unknown CT nonaffine systems](https://www.sciencedirect.com/science/article/pii/S0925231224001929)
  - [Online learning policy update for DT systems](https://ieeexplore.ieee.org/abstract/document/6208889)
  - [Online learning without initial admissible control for CT systems](https://ieeexplore.ieee.org/document/5717676)
  - [Parallel control-based optimal tracking for CT nonaffine systems](https://www.ieee-jas.net/en/article/doi/10.1109/JAS.2020.1003426)
