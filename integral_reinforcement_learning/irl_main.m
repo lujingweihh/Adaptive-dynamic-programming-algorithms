@@ -1,4 +1,4 @@
-% This demo checks the feasibility of the integral reinforcement learning (IRL) programming algorithm
+% This demo checks the feasibility of the integral reinforcement learning (IRL) algorithm
 
 % By J. Lu
 % Date: Nov. 23, 2020 
@@ -11,7 +11,7 @@ global K; global u; global A; global B; global Q; global R;
 P = zeros(4,4);
 uu = 0; % record control signal u
 
-% system matrices for the double inverted pendulum
+% system matrices
 A = [-0.0665   11.5       0         0;
          0     -2.5      2.5        0;
        -9.5      0    -13.736  -13.736;
