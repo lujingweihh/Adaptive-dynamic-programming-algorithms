@@ -3,7 +3,7 @@ Adaptive dynamic programming (ADP), also known as approximate dynamic programmin
 
  MATLAB codes of ADPRL, including iterative and online ADPRL, are provided. Currently added ADPRL algorithms include:
  - [Value iteraion for DT systems](https://ieeexplore.ieee.org/abstract/document/4554208)
- - [Value iteraion (positive semi definite initial value function) for DT systems](https://ieeexplore.ieee.org/abstract/document/7314890)
+ - [Value iteraion for DT systems (positive semi definite initial value function)](https://ieeexplore.ieee.org/abstract/document/7314890)
  - [Policy iteration for DT systems](https://ieeexplore.ieee.org/abstract/document/6609085)
  - [Policy iteration for CT systems](https://books.google.com/books?hl=zh-CN&lr=&id=U3Gtlot_hYEC&oi=fnd&pg=PR11&dq=optimal+control&ots=wd8jE5BAjv&sig=Gyy6RyPbILR_8hoybCd8etcX41o#v=onepage&q&f=false)
  - [Integral reinforcement learning for partially unknown CT systems](https://www.sciencedirect.com/science/article/abs/pii/S0893608009000446)
