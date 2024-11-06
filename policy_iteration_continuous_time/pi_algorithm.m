@@ -97,7 +97,7 @@ w_final_display = w'
 w_opt_display = w_opt'
 
 figure(1), 
-plot(1*((1:size(ww,2))-1),ww,'linewidth',1)
+plot(((1:size(ww,2))-1),ww,'linewidth',1)
 xlabel('Epoch');
 ylabel('$w$','Interpreter','latex');
 set(gca,'FontName','Times New Roman','FontSize',14,'linewidth',1);
