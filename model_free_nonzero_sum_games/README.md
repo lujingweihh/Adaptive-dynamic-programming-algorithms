@@ -5,7 +5,7 @@ J. Lu, Q. Wei, F.-Y. Wang. Parallel control for nonzero-sum games with completel
 
 ### Description
 ********
-Model-free optimal control method for unknown continuous-time NZSGs.
+Model-free optimal control for unknown continuous-time NZSGs.
 
 ### Requirements
 ********
