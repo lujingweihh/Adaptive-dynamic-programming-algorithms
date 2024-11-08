@@ -5,7 +5,7 @@ J. Lu, Q. Wei, F.-Y. Wang. Parallel control for nonzero-sum games with completel
 
 ### Description
 ********
-A novel model-free optimal control method for completely unknown nonlinear continuous-time NZSGs *without reconstructing unknown dynamics or employing off-policy integral reinforcement learning (IRL)*.
+Model-free optimal control method for unknown continuous-time NZSGs.
 
 ### Requirements
 ********
