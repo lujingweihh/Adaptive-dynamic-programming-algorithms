@@ -1,7 +1,6 @@
 # Model-free nonzero-sum games (NZSGs)
 ********
 Source code for paper:   
-J. Lu, Q. Wei, F.-Y. Wang. Parallel control for nonzero-sum games with completely unknown nonlinear dynamics via reinforcement learning.
 
 ### Description
 ********
@@ -15,7 +14,7 @@ Model-free optimal control for unknown continuous-time NZSGs.
 ********
 ```angular2html
 @article{lu,
-  title={Parallel Control for Nonzero-Sum Games With Completely Unknown Nonlinear Dynamics via Reinforcement Learning},
+  title={},
   author={Lu, Jingwei and Wei, Qinglai and Wang, Fei-Yue},
   journal={Submitted}
 }
