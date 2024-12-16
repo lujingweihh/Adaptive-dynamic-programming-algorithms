@@ -2,7 +2,7 @@ function cacc_model_free_learning
 % ''Parallel Control for Nonzero-Sum Games With Completely Unknown
 %   Nonlinear Dynamics via Reinforcement Learning''
 %
-% Code for decentralized cooperative adaptive cruise control (CACC)
+% Code for cooperative adaptive cruise control (CACC)
 %
 % By J. Lu
 % Date: Aug. 12, 2024
