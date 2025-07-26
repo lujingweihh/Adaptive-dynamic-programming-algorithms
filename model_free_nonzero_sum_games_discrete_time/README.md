@@ -1,7 +1,7 @@
 # Model-free discrete-time nonaffine nonzero-sum games
 ********
 Code for paper:  
-[J. Lu, Q. Wei, L. Li. Learning-based parallel control for unknown nonaffine nonzero-sum games. *IEEE Transactions on Automation Science and Engineering*, 2025.
+[J. Lu, Q. Wei, L. Li. Learning-based parallel control for unknown nonaffine nonzero-sum games. *IEEE Transactions on Automation Science and Engineering*, 2025, .]
 
 ### Description
 ********
