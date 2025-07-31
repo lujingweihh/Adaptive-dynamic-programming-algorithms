@@ -9,6 +9,7 @@ Adaptive dynamic programming (ADP), also known as approximate dynamic programmin
  - [Integral reinforcement learning for partially unknown CT systems](https://www.sciencedirect.com/science/article/abs/pii/S0893608009000446)
  - [Model-free integral reinforcement learning for completely unknown nonaffine CT systems](https://www.sciencedirect.com/science/article/pii/S0925231224001929)
  - [Model-free nonzero-sum games for completely unknown nonaffine CT systems](https://ieeexplore.ieee.org/document/10849990)
+ - [Model-free nonzero-sum games for completely unknown nonaffine DT systems](https://ieeexplore.ieee.org/document/11104206)
  - [Online learning policy update for DT systems](https://ieeexplore.ieee.org/abstract/document/6208889)
  - [Online learning without initial admissible control for CT systems](https://ieeexplore.ieee.org/document/5717676)
  - [Parallel control-based optimal tracking for nonaffine CT systems](https://www.ieee-jas.net/en/article/doi/10.1109/JAS.2020.1003426)
